@@ -17,11 +17,11 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://barancezayirli.com"
+        href="https://haeming00.github.io"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Baran Cezayirli
+        Haemin Goo
       </a>
     </div>
     {social && (

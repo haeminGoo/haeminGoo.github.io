@@ -53,3 +53,18 @@
 }
 
 @tailwind utilities;
+
+
+.projectImg {
+    border: 1px solid #ddd;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 99px;
+    overflow: hidden;
+}
+
+.projectImg:hover {
+    opacity: 0.5;
+}
