@@ -8,13 +8,24 @@ const Projects = ({ data }) => (
         <h2 className="item-header">{item.name}</h2>
         <h3 className="item-sub">{item.company}</h3>
         <p className="py-4">{item.description}</p>
+        
         {item.img !== undefined && 
         <div className="flex justify-start">
           {item.img.map((data, i) => <a key={i} href={data.src} rel="noopener noreferrer" target="_blank" className='projectImg'><img src={data.src} alt={data.desc} width='200' /></a>)}
         </div>
         }
+        <div className="flex justify-between">
+          <div className="flex justify-start">
+            {item.skills !== undefined &&
+              item.skills.map((keyword, i)=>
+                <span key={i} className="tag">
+                  {keyword}
+                </span>
+              )
+            }
+          </div>
         {item.link !== undefined && 
-          <div className="flex justify-end">
+          <div className="justify-end">
             <a
               className="btn btn-secondary"
               href={item.link}
@@ -25,6 +36,8 @@ const Projects = ({ data }) => (
             </a>
           </div>
         }
+        </div>
+        
       </article>
     ))}
   </section>

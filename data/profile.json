@@ -122,6 +122,7 @@
       "name": "Ainesha",
       "company": "Cy2code",
       "description": "FX trading system using AI.",
+      "skills": ["Javascript", "JQuery","html","css"],
       "link": "https://ainesha.com",
       "img": [
         {
@@ -141,7 +142,8 @@
     },{
       "name": "Ainesha Back-office",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "Back-office for settlement and user management",
+      "skills": ["Javascript", "react","mobx","antd","html","scss"],
       "link": "https://admin.ainesha.com",
       "img": [
         {
@@ -158,7 +160,8 @@
     },{
       "name": "Research Platform for the Gwangju Democratization Movement",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "Research Platform for the Gwangju Democratization Movement, requested by the Department of Defense.",
+      "skills": ["Javascript", "react","mobx","spring boot","antd","html","scss"],
       "img": [
         {
           "src": "./project/gwangjoo1.png",
@@ -180,7 +183,8 @@
     },{
       "name": "Research Platform Back office for the Gwangju Democratization Movement",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "Back-office for data management",
+      "skills": ["Javascript", "react","mobx","antd","html","scss"],
       "img": [
         {
           "src": "./project/gwangjooBO1.png",
@@ -196,7 +200,8 @@
     },{
       "name": "Integrated Payment Platform Mobile Application",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "Mobile Application (blockchain wallet, purchase product using token)",
+      "skills": ["Javascript", "react-native","mobx","expo","html","scss"],
       "link": "https://play.google.com/store/apps/details?id=com.ecpplus.ecpplus",
       "img": [
         {
@@ -213,7 +218,8 @@
     },{
       "name": "Integrated Payment Platform Back office",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "Back-office for settlement and user management",
+      "skills": ["Javascript", "react","mobx","antd","html","scss"],
       "link": "http://admin.epay-global.net/",
       "img": [
         {
@@ -234,7 +240,8 @@
     },{
       "name": "LISA - Financial Specialized Chatbot",
       "company": "고센그룹 주식회사",
-      "description": "FX trading system using AI.",
+      "description": "Administrator page for building and learning chatbots",
+      "skills": ["Javascript", "react","redux","redux-thunk","material ui","html","scss"],
       "img": [
         {
           "src": "./project/lisaBO1.png",
@@ -262,11 +269,13 @@
       "name": "Desert Essence official Korea",
       "company": "(주)엘에스지",
       "description": "make website and design renewal (2016.08)",
+      "skills": ["Javascript", "JQuery","html","css"],
       "link": "http://www.desertessence.co.kr/"
     },{
       "name": "LOQI official Korea",
       "company": "(주)엘에스지",
       "description": "make website and design renewal (2016.08)",
+      "skills": ["Javascript", "JQuery","html","css"],
       "link":"http://loqi.kr/"
     }
   ],
