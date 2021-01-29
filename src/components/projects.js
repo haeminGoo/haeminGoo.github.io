@@ -15,7 +15,7 @@ const Projects = ({ data }) => (
         </div>
         }
         <div className="flex justify-between">
-          <div className="flex justify-start">
+          <div className="justify-start mxwidth200">
             {item.skills !== undefined &&
               item.skills.map((keyword, i)=>
                 <span key={i} className="tag">

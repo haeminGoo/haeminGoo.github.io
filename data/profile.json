@@ -2,7 +2,7 @@
   "contact": {
     "phone": "+82 10 9926 0147",
     "email": "oooohyemin@gmail.com",
-    "website": "https://haeminG00.github.io",
+    "website": "https://haeminGoo.github.io",
     "location": "Seoul, Korea"
   },
   "skills": [
@@ -37,6 +37,10 @@
           "percent": 79
         },
         {
+          "name": "Vue",
+          "percent": 70
+        },
+        {
           "name": "Angular",
           "percent": 70
         },
@@ -45,7 +49,7 @@
           "percent": 60
         },
         {
-          "name": "Node",
+          "name": "Webpack",
           "percent": 70
         }
       ]
@@ -75,10 +79,17 @@
   "experience": [
     {
       "role": "Front-end Developer",
+      "company": "(주)테라핀테크",
+      "description": "I'm in charge of all the front-end affairs of this company. I'm also in charge of front-end work in collaboration with other companies(Kakao Pay, Toss), and I am currently working on various projects related to the Online Investment Linked Finance Act",
+      "start": "08/2020",
+      "end": ""
+    },
+    {
+      "role": "Front-end Developer",
       "company": "(주)싸이투코드",
       "description": "The name of the company was changed at 고센그룹 주식회사. I am in charge of the development team, and I am producing the website of Blockchain/Artificial Intelligence Service, the administrator's homepage for settlement, and Windows application.",
       "start": "01/2019",
-      "end": ""
+      "end": "08/2020"
     },
     {
       "role": "Front-end Developer",
@@ -109,7 +120,7 @@
     },
     {
       "service": "github",
-      "url": "https://github.com/haeminG00"
+      "url": "https://github.com/haeminGoo"
     },
     {
       "service": "instagram",
@@ -118,6 +129,107 @@
   ],
   "role": "Front-end Develpoer",
   "projects": [
+    {
+      "name": "Tera Funding collaboration with Toss",
+      "company": "(주)테라핀테크",
+      "description": "Online Investment Linked Finance Act",
+      "skills": ["Javascript", "C#", "JQuery","html","css"],
+      "img": [
+        {
+          "src": "./project/toss1.png",
+          "desc": "Toss 1"
+        },{
+          "src": "./project/toss2.png",
+          "desc": "Toss 2"
+        },{
+          "src": "./project/toss3.png",
+          "desc": "Toss 3"
+        }
+      ]
+    },{
+      "name": "Tera Funding collaboration with Kakao Pay",
+      "company": "(주)테라핀테크",
+      "description": "Online Investment Linked Finance Act",
+      "skills": ["Javascript", "React", "html","css"],
+      "img": [
+        {
+          "src": "./project/kakao1.png",
+          "desc": "Kakao Pay 1"
+        },{
+          "src": "./project/kakao2.png",
+          "desc": "Kakao Pay 2"
+        },{
+          "src": "./project/kakao3.png",
+          "desc": "Kakao Pay 3"
+        }
+      ]
+    },
+    {
+      "name": "Tera Funding",
+      "company": "(주)테라핀테크",
+      "description": "Funding service maintenance and refactoring",
+      "skills": ["Javascript", "VueJS", "NUXT","html","css"],
+      "link": "https://terafunding.com",
+      "img": [
+        {
+          "src": "./project/funding1.png",
+          "desc": "Tera funding 1"
+        },{
+          "src": "./project/funding2.png",
+          "desc": "Tera funding 2"
+        },{
+          "src": "./project/funding3.png",
+          "desc": "Tera funding 3"
+        },{
+          "src": "./project/funding4.png",
+          "desc": "Tera funding 4"
+        }
+      ]
+    },
+    {
+      "name": "Tera Funding Mobile web",
+      "company": "(주)테라핀테크",
+      "description": "Mobile Funding service maintenance and refactoring",
+      "skills": ["Javascript", "VueJS", "NUXT","html","css"],
+      "link": "https://m.terafunding.com",
+      "img": [
+        {
+          "src": "./project/m-funding1.png",
+          "desc": "Mobile Tera funding 1"
+        },{
+          "src": "./project/m-funding2.png",
+          "desc": "Mobile Tera funding 2"
+        },{
+          "src": "./project/m-funding3.png",
+          "desc": "Mobile Tera funding 3"
+        },{
+          "src": "./project/m-funding4.png",
+          "desc": "Mobile Tera funding 4"
+        }
+      ]
+    },
+    {
+      "name": "Tera Loan",
+      "company": "(주)테라핀테크",
+      "description": "To change a web page that provides loan services to a reactive home page",
+      "skills": ["Javascript", "VueJS","html","css"],
+      "link": "https://loan.terafunding.com/mortgage",
+      "img": [
+        {
+          "src": "./project/loan1.png",
+          "desc": "Tera loan 1"
+        },{
+          "src": "./project/loan2.png",
+          "desc": "Tera loan 2"
+        },{
+          "src": "./project/loan3.png",
+          "desc": "Tera loan 3"
+        },{
+          "src": "./project/loan4.png",
+          "desc": "Tera loan 4"
+        }
+      ]
+    },
     {
       "name": "Ainesha",
       "company": "Cy2code",

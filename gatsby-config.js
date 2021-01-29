@@ -9,7 +9,7 @@ module.exports = {
     title: `Haemin Goo | Front-end Developer`,
     author: `Haemin Goo`,
     description: `With 5+ years of experience as front-end develper in various industries. I design and build various projects and I value making satisfactory result on time.`,
-    siteUrl: `https://haeminG00.github.io/`,
+    siteUrl: `https://haeminGoo.github.io/`,
     social: {
       // twitter: `barancezayirli`,
     },
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Haemin Goo | Front-end Developer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,

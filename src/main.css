@@ -36,8 +36,25 @@
     @apply text-neutral-600 tracking-wide text-sm;
 }
 
+.mxwidth200 {
+    max-width: auto
+}
+
 .tag {
     @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+}
+
+@media (max-width: 460px){
+    .tag {
+        white-space: nowrap;
+        max-width: 60px;
+        text-overflow: ellipse;
+        overflow: hidden;
+    } 
+
+    .mxwidth200 {
+        max-width: 200px
+    }
 }
 
 .footer-social-link {

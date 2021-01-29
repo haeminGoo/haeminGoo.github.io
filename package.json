@@ -35,12 +35,12 @@
     "prettier": "^1.19.1",
     "tailwindcss": "^1.1.4"
   },
-  "homepage" : "https://haeming00.github.io/",
+  "homepage" : "https://haemingoo.github.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haeminG00/haeminG00.github.io"
+    "url": "https://github.com/haeminGoo/haeminGoo.github.io"
   },
   "bugs": {
-    "url": "https://github.com/haeminG00/haeminG00.github.io/issues"
+    "url": "https://github.com/haeminGoo/haeminGoo.github.io/issues"
   }
 }
