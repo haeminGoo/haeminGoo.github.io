@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: haeminG00/haeminG00.github.io #TODO replace this with your own repo
+  repo: haeminGoo/haeminGoo.github.io #TODO replace this with your own repo
 
 media_folder: static/assets
 public_folder: assets

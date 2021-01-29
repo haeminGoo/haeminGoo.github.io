@@ -36,8 +36,8 @@
     @apply text-neutral-600 tracking-wide text-sm;
 }
 
-.mxwidth200 {
-    max-width: auto
+.minwidth85 {
+    min-width: auto
 }
 
 .tag {
@@ -52,8 +52,8 @@
         overflow: hidden;
     } 
 
-    .mxwidth200 {
-        max-width: 200px
+    .minwidth85 {
+        min-width: 85px
     }
 }
 

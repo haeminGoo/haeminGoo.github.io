@@ -15,7 +15,7 @@ const Projects = ({ data }) => (
         </div>
         }
         <div className="flex justify-between">
-          <div className="justify-start mxwidth200">
+          <div className="justify-start">
             {item.skills !== undefined &&
               item.skills.map((keyword, i)=>
                 <span key={i} className="tag">
@@ -25,7 +25,7 @@ const Projects = ({ data }) => (
             }
           </div>
         {item.link !== undefined && 
-          <div className="justify-end">
+          <div className="justify-end minwidth85">
             <a
               className="btn btn-secondary"
               href={item.link}
