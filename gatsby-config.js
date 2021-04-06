@@ -22,7 +22,7 @@ module.exports = {
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#38B2AC`,
+        theme_color: `#9979ff`,
         display: `standalone`,
         icon: 'src/assets/site-icon.png'
       },
