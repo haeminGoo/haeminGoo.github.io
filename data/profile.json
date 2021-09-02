@@ -137,6 +137,18 @@
   "role": "Front-end Develpoer",
   "projects": [
     {
+		"name": "KOEN VPP LDS",
+		"company": "주식회사 브이젠",
+		"description": "Plant Monitoring System",
+		"skills": ["Javascript", "React", "d3","html","css"],
+		"link": "http://15.165.198.216/",
+		"img": [
+		  {
+			"src": "./project/lds.png",
+			"desc": "lds 1"
+		  }
+		]
+	  },{
       "name": "Tera Funding collaboration with Toss",
       "company": "(주)테라핀테크",
       "description": "Online Investment Linked Finance Act",
