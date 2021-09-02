@@ -77,12 +77,19 @@
     }
   ],
   "experience": [
+	{
+		"role": "Front-end Developer",
+		"company": "주식회사 브이젠",
+		"description": "I'm in charge of all the front-end affairs of this company. I am currently working on various projects about VPP(Virtual Power Plant)",
+		"start": "03/2021",
+		"end": ""
+	},
     {
       "role": "Front-end Developer",
       "company": "(주)테라핀테크",
       "description": "I'm in charge of all the front-end affairs of this company. I'm also in charge of front-end work in collaboration with other companies(Kakao Pay, Toss), and I am currently working on various projects related to the Online Investment Linked Finance Act",
       "start": "08/2020",
-      "end": ""
+      "end": "02/2021"
     },
     {
       "role": "Front-end Developer",
