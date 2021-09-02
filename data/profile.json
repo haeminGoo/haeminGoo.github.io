@@ -139,7 +139,7 @@
     {
 		"name": "Gaonna Scrapper",
 		"company": "Toy project",
-		"description": "data scraping program",
+		"description": "This is a data scraping program that imports data from Taobao and Naver shopping. I heard complaints from my friend who runs overseas direct purchase business and produced it. It is a program to import data using puppeter, edit the imported data, and save it as an Excel file.",
 		"skills": ["node", "React", "chromium","electron","puppeteer"],
 		"link": "https://drive.google.com/file/d/1i3xlmdjM4MEKatBYctyLPoy0JW1GyujJ/view?usp=sharing",
 		"img": [
@@ -151,7 +151,7 @@
 	},{
 		"name": "KOEN VPP LDS",
 		"company": "주식회사 브이젠",
-		"description": "Plant Monitoring System",
+		"description": "A system that monitors real-time information of generators belonging to a plant. The map library was not available because the system would operate in a closed network, so we implemented it directly using d3.",
 		"skills": ["Javascript", "React", "d3","html","css"],
 		"link": "http://15.165.198.216/",
 		"img": [
@@ -163,7 +163,7 @@
 	},{
       "name": "Tera Funding collaboration with Toss",
       "company": "(주)테라핀테크",
-      "description": "Online Investment Linked Finance Act",
+      "description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
       "skills": ["Javascript", "C#", "JQuery","html","css"],
       "img": [
         {
@@ -180,7 +180,7 @@
     },{
       "name": "Tera Funding collaboration with Kakao Pay",
       "company": "(주)테라핀테크",
-      "description": "Online Investment Linked Finance Act",
+      "description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
       "skills": ["Javascript", "React", "html","css"],
       "img": [
         {
@@ -264,7 +264,7 @@
     {
       "name": "Ainesha",
       "company": "Cy2code",
-      "description": "FX trading system using AI.",
+      "description": "FX trading system using AI. I created a web page for service application and member information management.",
       "skills": ["Javascript", "JQuery","html","css"],
       "link": "https://ainesha.com",
       "img": [
@@ -285,7 +285,7 @@
     },{
       "name": "Ainesha Back-office",
       "company": "Cy2code",
-      "description": "Back-office for settlement and user management",
+      "description": "Back-office for settlement and user management. It includes basic member management, as well as functions for tax returns.",
       "skills": ["Javascript", "react","mobx","antd","html","scss"],
       "link": "https://admin.ainesha.com",
       "img": [
@@ -326,7 +326,7 @@
     },{
       "name": "Research Platform Back office for the Gwangju Democratization Movement",
       "company": "Cy2code",
-      "description": "Back-office for data management",
+      "description": "Back-office for data management. It has functions such as registering synonyms and synonyms necessary for artificial intelligence learning, managing learning schedules, and registering new data.",
       "skills": ["Javascript", "react","mobx","antd","html","scss"],
       "img": [
         {
