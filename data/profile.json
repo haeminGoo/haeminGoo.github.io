@@ -137,6 +137,18 @@
   "role": "Front-end Develpoer",
   "projects": [
     {
+		"name": "Gaonna Scrapper",
+		"company": "Toy project",
+		"description": "data scraping program",
+		"skills": ["node", "React", "chromium","electron","puppeteer"],
+		"link": "https://drive.google.com/file/d/1i3xlmdjM4MEKatBYctyLPoy0JW1GyujJ/view?usp=sharing",
+		"img": [
+		  {
+			"src": "./project/gaonna.png",
+			"desc": "gaonna 1"
+		  }
+		]
+	},{
 		"name": "KOEN VPP LDS",
 		"company": "주식회사 브이젠",
 		"description": "Plant Monitoring System",
@@ -148,7 +160,7 @@
 			"desc": "lds 1"
 		  }
 		]
-	  },{
+	},{
       "name": "Tera Funding collaboration with Toss",
       "company": "(주)테라핀테크",
       "description": "Online Investment Linked Finance Act",
