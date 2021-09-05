@@ -87,3 +87,20 @@
 .projectImg:hover {
     opacity: 0.5;
 }
+
+.point {
+	padding: 0.3rem 1rem;
+	position: relative;
+	font-size: 0.9rem;
+}
+
+.point::before {
+	content: '●';
+	color: #9f7aea;
+	position: absolute;
+	left: 0;
+}
+
+.point:last-child {
+	padding-bottom: 1rem;
+}

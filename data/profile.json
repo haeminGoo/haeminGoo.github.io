@@ -131,7 +131,7 @@
     },
     {
       "service": "instagram",
-      "url": "https://www.instagram.com/haemin0420"
+      "url": "https://www.instagram.com/guhaemin00"
     }
   ],
   "role": "Front-end Develpoer",
@@ -139,7 +139,12 @@
     {
 		"name": "Gaonna Scrapper",
 		"company": "Toy project",
-		"description": "This is a data scraping program that imports data from Taobao and Naver shopping. I heard complaints from my friend who runs overseas direct purchase business and produced it. It is a program to import data using puppeter, edit the imported data, and save it as an Excel file.",
+		"description": "This is a data scraping program that imports data from Taobao and Naver shopping. I heard complaints from my friend who runs overseas direct purchase business and produced it.",
+		"point":[
+			"Collect data after searching Naver shopping items.",
+			"Retrieves information from the Taobao product page list and translates data through Papago.",
+			"Modify scraped data and extract it in Excel format"
+		],
 		"skills": ["node", "React", "chromium","electron","puppeteer"],
 		"link": "https://drive.google.com/file/d/1i3xlmdjM4MEKatBYctyLPoy0JW1GyujJ/view?usp=sharing",
 		"img": [
@@ -151,7 +156,12 @@
 	},{
 		"name": "KOEN VPP LDS",
 		"company": "주식회사 브이젠",
-		"description": "A system that monitors real-time information of generators belonging to a plant. The map library was not available because the system would operate in a closed network, so we implemented it directly using d3.",
+		"description": "A system that monitors information of generators belonging to a plant. The map library was not available because the system would operate in a closed network, so we implemented it directly using d3.",
+		"point":[
+			"Display measurement data and forecasts for generators.",
+			"Map representation using D3.js and topoJson",
+			"Map magnification, reduction, marker display with D3.js"
+		],
 		"skills": ["Javascript", "React", "d3","html","css"],
 		"link": "http://15.165.198.216/",
 		"img": [
