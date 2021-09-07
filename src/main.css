@@ -104,3 +104,17 @@
 .point:last-child {
 	padding-bottom: 1rem;
 }
+
+@media print {
+	main.bg-neutral-100 {
+		background: #fff;
+	}
+
+	.container.shadow {
+		box-shadow: none;
+	}
+
+	.no-print {
+		display: none;
+	}
+}

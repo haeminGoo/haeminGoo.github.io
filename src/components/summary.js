@@ -9,7 +9,7 @@ const Summary = ({ data }) => (
         alt="profile"
       />
     </div>
-    <div className="text-center tracking-wide leading-relaxed lg:text-left lg:mx-8 lg:text-sm">
+    <div className="text-center tracking-wide leading-relaxed lg:text-left lg:mx-8 text-sm">
       {typeof data === 'string' ? <p>{data}</p> : data.map((el, i) => <p key={i}>{el}</p>)}
     </div>
   </section>

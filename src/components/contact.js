@@ -45,8 +45,8 @@ const Contact = ({ field, value, onClick }) => (
     )}
 	{field === 'translation' && (
       <>
-        <TranslationIcon className="contact-icon" />
-        <span className="contact-link" style={{cursor:'pointer'}} onClick={onClick}>{value}</span>
+        <TranslationIcon className="contact-icon no-print" />
+        <span className="contact-link no-print" style={{cursor:'pointer'}} onClick={onClick}>{value}</span>
       </>
     )}
   </span>
