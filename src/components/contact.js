@@ -3,8 +3,9 @@ import MailIcon from '../assets/mail.svg';
 import MobileIcon from '../assets/mobile.svg';
 import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
+import TranslationIcon from '../assets/translation.svg'
 
-const Contact = ({ field, value }) => (
+const Contact = ({ field, value, onClick }) => (
   <span className="flex my-2 text-primary-900 tracking-widest items-center">
     {field === 'email' && (
       <>
@@ -40,6 +41,12 @@ const Contact = ({ field, value }) => (
       <>
         <LocationIcon className="contact-icon" />
         <span className="contact-link">{value}</span>
+      </>
+    )}
+	{field === 'translation' && (
+      <>
+        <TranslationIcon className="contact-icon" />
+        <span className="contact-link" style={{cursor:'pointer'}} onClick={onClick}>{value}</span>
       </>
     )}
   </span>

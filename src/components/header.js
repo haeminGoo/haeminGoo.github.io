@@ -1,7 +1,7 @@
 import React from 'react';
 import Contact from './contact';
 
-const Header = ({ name, role, contacts }) => (
+const Header = ({ name, role, contacts, changLang, lang }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
     <div>
       <h1 className="text-primary-500 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
@@ -16,6 +16,7 @@ const Header = ({ name, role, contacts }) => (
         Object.keys(contacts).map(key => (
           <Contact key={key} field={key} value={contacts[key]} />
         ))}
+		<Contact field={'translation'} value={lang === 'ko' ? 'Korean' : 'English'} onClick={changLang}/>
     </div>
   </header>
 );
