@@ -10,9 +10,7 @@ module.exports = {
     author: `Haemin Goo`,
     description: `With 5+ years of experience as front-end develper in various industries. I design and build various projects and I value making satisfactory result on time.`,
     siteUrl: `https://haeminGoo.github.io/`,
-    social: {
-      // twitter: `barancezayirli`,
-    },
+    
   },
   plugins: [
     {
@@ -24,7 +22,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#9979ff`,
         display: `standalone`,
-        icon: 'src/assets/site-icon.png'
+        icon: 'icons/icon-48x48.png'
       },
     },
     'gatsby-plugin-offline',
