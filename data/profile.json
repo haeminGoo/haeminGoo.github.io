@@ -1,436 +1,639 @@
 {
-  "contact": {
-    "phone": "+82 10 9926 0147",
-    "email": "oooohyemin@gmail.com",
-    "website": "https://haeminGoo.github.io",
-    "location": "Seoul, Korea"
-  },
-  "skills": [
-    {
-      "title": "Languages",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "Javascript",
-          "percent": 89
-        },
-        {
-          "name": "HTML",
-          "percent": 94
-        },
-        {
-          "name": "CSS",
-          "percent": 85
-        }
-      ]
-    },
-    {
-      "title": "Frameworks",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "React",
-          "percent": 89
-        },
-        {
-          "name": "React Native",
-          "percent": 79
-        },
-        {
-          "name": "Vue",
-          "percent": 70
-        },
-        {
-          "name": "Angular",
-          "percent": 70
-        },
-        {
-          "name": "Electron",
-          "percent": 60
-        },
-        {
-          "name": "Webpack",
-          "percent": 70
-        }
-      ]
-    },
-    {
-      "title": "Software",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Illustrator"
-        },
-        {
-          "name": "Photoshop"
-        }
-      ]
-    }
-  ],
-  "summary": "When I was a teenager, I worked as a freelancer in homepage making as a hobby. And became a job after graduating from university. I have more than five years of experience as a front-end developer in various industries. I value designing and building various projects, and producing satisfactory results in time.",
-  "education": [
-    {
-      "institution": "Hongik University, Seoul",
-      "degree": "Indestrial Engineering",
-      "start": "2007",
-      "end": "2014"
-    }
-  ],
-  "experience": [
-	{
-		"role": "Front-end Developer",
-		"company": "주식회사 브이젠",
-		"description": "I'm in charge of all the front-end affairs of this company. I am currently working on various projects about VPP(Virtual Power Plant)",
-		"start": "03/2021",
-		"end": ""
+	"contact": {
+		"phone": "+82 10 9926 0147",
+		"email": "oooohyemin@gmail.com",
+		"website": "https://haeminGoo.github.io",
+		"location": "Seoul, Korea"
 	},
-    {
-      "role": "Front-end Developer",
-      "company": "(주)테라핀테크",
-      "description": "I'm in charge of all the front-end affairs of this company. I'm also in charge of front-end work in collaboration with other companies(Kakao Pay, Toss), and I am currently working on various projects related to the Online Investment Linked Finance Act",
-      "start": "08/2020",
-      "end": "02/2021"
-    },
-    {
-      "role": "Front-end Developer",
-      "company": "(주)싸이투코드",
-      "description": "The name of the company was changed at 고센그룹 주식회사. I am in charge of the development team, and I am producing the website of Blockchain/Artificial Intelligence Service, the administrator's homepage for settlement, and Windows application.",
-      "start": "01/2019",
-      "end": "08/2020"
-    },
-    {
-      "role": "Front-end Developer",
-      "company": "고센그룹 주식회사",
-      "description": "Worked as a front end for a company that makes AI-based services. I made a build homepage for chatbot production and a learning and preprocessing homepage for machine learning.",
-      "start": "02/2017",
-      "end": "12/2018"
-    },
-    {
-      "role": "Front-end Developer",
-      "company": "(주)엘에스지",
-      "description": "I worked as a front-end developer for a distribution company. This is where various brands in fashion and cosmetics are launched in Korea, where I have produced introductory and sales websites for each brand.",
-      "start": "06/2016",
-      "end": "02/2017"
-    },
-    {
-      "role": "Front-end Developer",
-      "company": "(주)유에듀엠",
-      "description": "In the first years of my career, I produced the company's homepage and maintained the existing online lecture page.",
-      "start": "01/2015",
-      "end": "01/2016"
-    }
-  ],
-  "social": [
-    {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/haemin-goo"
-    },
-    {
-      "service": "github",
-      "url": "https://github.com/haeminGoo"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/guhaemin00"
-    }
-  ],
-  "role": "Front-end Develpoer",
-  "projects": [
-    {
-		"name": "Gaonna Scrapper",
-		"company": "Toy project",
-		"description": "This is a data scraping program that imports data from Taobao and Naver shopping. I heard complaints from my friend who runs overseas direct purchase business and produced it.",
-		"point":[
-			"Collect data after searching Naver shopping items.",
-			"Retrieves information from the Taobao product page list and translates data through Papago.",
-			"Modify scraped data and extract it in Excel format"
-		],
-		"skills": ["node", "React", "chromium","electron","puppeteer"],
-		"link": "https://drive.google.com/file/d/1i3xlmdjM4MEKatBYctyLPoy0JW1GyujJ/view?usp=sharing",
-		"img": [
-		  {
-			"src": "./project/gaonna.png",
-			"desc": "gaonna 1"
-		  }
-		]
-	},{
-		"name": "KOEN VPP LDS",
-		"company": "주식회사 브이젠",
-		"description": "A system that monitors information of generators belonging to a plant. The map library was not available because the system would operate in a closed network, so we implemented it directly using d3.",
-		"point":[
-			"Display measurement data and forecasts for generators.",
-			"Map representation using D3.js and topoJson",
-			"Map magnification, reduction, marker display with D3.js"
-		],
-		"skills": ["Javascript", "React", "d3","html","css"],
-		"link": "http://15.165.198.216/",
-		"img": [
-		  {
-			"src": "./project/lds.png",
-			"desc": "lds 1"
-		  }
-		]
-	},{
-      "name": "Tera Funding collaboration with Toss",
-      "company": "(주)테라핀테크",
-      "description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
-      "skills": ["Javascript", "C#", "JQuery","html","css"],
-      "img": [
-        {
-          "src": "./project/toss1.png",
-          "desc": "Toss 1"
-        },{
-          "src": "./project/toss2.png",
-          "desc": "Toss 2"
-        },{
-          "src": "./project/toss3.png",
-          "desc": "Toss 3"
-        }
-      ]
-    },{
-      "name": "Tera Funding collaboration with Kakao Pay",
-      "company": "(주)테라핀테크",
-      "description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
-      "skills": ["Javascript", "React", "html","css"],
-      "img": [
-        {
-          "src": "./project/kakao1.png",
-          "desc": "Kakao Pay 1"
-        },{
-          "src": "./project/kakao2.png",
-          "desc": "Kakao Pay 2"
-        },{
-          "src": "./project/kakao3.png",
-          "desc": "Kakao Pay 3"
-        }
-      ]
-    },
-    {
-      "name": "Tera Funding",
-      "company": "(주)테라핀테크",
-      "description": "Funding service maintenance and refactoring",
-      "skills": ["Javascript", "VueJS", "NUXT","html","css"],
-      "link": "https://terafunding.com",
-      "img": [
-        {
-          "src": "./project/funding1.png",
-          "desc": "Tera funding 1"
-        },{
-          "src": "./project/funding2.png",
-          "desc": "Tera funding 2"
-        },{
-          "src": "./project/funding3.png",
-          "desc": "Tera funding 3"
-        },{
-          "src": "./project/funding4.png",
-          "desc": "Tera funding 4"
-        }
-      ]
-    },
-    {
-      "name": "Tera Funding Mobile web",
-      "company": "(주)테라핀테크",
-      "description": "Mobile Funding service maintenance and refactoring",
-      "skills": ["Javascript", "VueJS", "NUXT","html","css"],
-      "link": "https://m.terafunding.com",
-      "img": [
-        {
-          "src": "./project/m-funding1.png",
-          "desc": "Mobile Tera funding 1"
-        },{
-          "src": "./project/m-funding2.png",
-          "desc": "Mobile Tera funding 2"
-        },{
-          "src": "./project/m-funding3.png",
-          "desc": "Mobile Tera funding 3"
-        },{
-          "src": "./project/m-funding4.png",
-          "desc": "Mobile Tera funding 4"
-        }
-      ]
-    },
-    {
-      "name": "Tera Loan",
-      "company": "(주)테라핀테크",
-      "description": "To change a web page that provides loan services to a reactive home page",
-      "skills": ["Javascript", "VueJS","html","css"],
-      "link": "https://loan.terafunding.com/mortgage",
-      "img": [
-        {
-          "src": "./project/loan1.png",
-          "desc": "Tera loan 1"
-        },{
-          "src": "./project/loan2.png",
-          "desc": "Tera loan 2"
-        },{
-          "src": "./project/loan3.png",
-          "desc": "Tera loan 3"
-        },{
-          "src": "./project/loan4.png",
-          "desc": "Tera loan 4"
-        }
-      ]
-    },
-    {
-      "name": "Ainesha",
-      "company": "Cy2code",
-      "description": "FX trading system using AI. I created a web page for service application and member information management.",
-      "skills": ["Javascript", "JQuery","html","css"],
-      "link": "https://ainesha.com",
-      "img": [
-        {
-          "src": "./project/ainesha1.png",
-          "desc": "ainesha 1"
-        },{
-          "src": "./project/ainesha2.png",
-          "desc": "ainesha 2"
-        },{
-          "src": "./project/ainesha3.png",
-          "desc": "ainesha 3"
-        },{
-          "src": "./project/ainesha4.png",
-          "desc": "ainesha 4"
-        }
-      ]
-    },{
-      "name": "Ainesha Back-office",
-      "company": "Cy2code",
-      "description": "Back-office for settlement and user management. It includes basic member management, as well as functions for tax returns.",
-      "skills": ["Javascript", "react","mobx","antd","html","scss"],
-      "link": "https://admin.ainesha.com",
-      "img": [
-        {
-          "src": "./project/aineshaBO1.png",
-          "desc": "ainesha back office 1"
-        },{
-          "src": "./project/aineshaBO2.png",
-          "desc": "ainesha back office 2"
-        },{
-          "src": "./project/aineshaBO3.png",
-          "desc": "ainesha back office 3"
-        }
-      ]
-    },{
-      "name": "Research Platform for the Gwangju Democratization Movement",
-      "company": "Cy2code",
-      "description": "Research Platform for the Gwangju Democratization Movement, requested by the Department of Defense.",
-      "skills": ["Javascript", "react","mobx","spring boot","antd","html","scss"],
-      "img": [
-        {
-          "src": "./project/gwangjoo1.png",
-          "desc": "Research Platform for the Gwangju Democratization Movement 1"
-        },{
-          "src": "./project/gwangjoo2.png",
-          "desc": "Research Platform for the Gwangju Democratization Movement 2"
-        },{
-          "src": "./project/gwangjoo3.png",
-          "desc": "Research Platform for the Gwangju Democratization Movement 3"
-        },{
-          "src": "./project/gwangjoo4.png",
-          "desc": "Research Platform for the Gwangju Democratization Movement 4"
-        },{
-          "src": "./project/gwangjoo5.png",
-          "desc": "Research Platform for the Gwangju Democratization Movement 5"
-        }
-      ]
-    },{
-      "name": "Research Platform Back office for the Gwangju Democratization Movement",
-      "company": "Cy2code",
-      "description": "Back-office for data management. It has functions such as registering synonyms and synonyms necessary for artificial intelligence learning, managing learning schedules, and registering new data.",
-      "skills": ["Javascript", "react","mobx","antd","html","scss"],
-      "img": [
-        {
-          "src": "./project/gwangjooBO1.png",
-          "desc": "Research Platform Back office for the Gwangju Democratization Movement 1"
-        },{
-          "src": "./project/gwangjooBO2.png",
-          "desc": "Research Platform Back office for the Gwangju Democratization Movement 2"
-        },{
-          "src": "./project/gwangjooBO3.png",
-          "desc": "Research Platform Back office for the Gwangju Democratization Movement 3"
-        }
-      ]
-    },{
-      "name": "Integrated Payment Platform Mobile Application",
-      "company": "Cy2code",
-      "description": "Mobile Application (blockchain wallet, purchase product using token)",
-      "skills": ["Javascript", "react-native","mobx","expo","html","scss"],
-      "link": "https://play.google.com/store/apps/details?id=com.ecpplus.ecpplus",
-      "img": [
-        {
-          "src": "./project/ecp1.png",
-          "desc": "Integrated Payment Platform Mobile Application 1"
-        },{
-          "src": "./project/ecp2.png",
-          "desc": "Integrated Payment Platform Mobile Application 2"
-        },{
-          "src": "./project/ecp3.png",
-          "desc": "Integrated Payment Platform Mobile Application 3"
-        }
-      ]
-    },{
-      "name": "Integrated Payment Platform Back office",
-      "company": "Cy2code",
-      "description": "Back-office for settlement and user management",
-      "skills": ["Javascript", "react","mobx","antd","html","scss"],
-      "link": "http://admin.epay-global.net/",
-      "img": [
-        {
-          "src": "./project/ecpBO1.png",
-          "desc": "Integrated Payment Platform Back office 1"
-        },{
-          "src": "./project/ecpBO2.png",
-          "desc": "Integrated Payment Platform Back office 2"
-        },{
-          "src": "./project/ecpBO3.png",
-          "desc": "Integrated Payment Platform Back office 3"
-        }
-      ]
-    },{
-      "name": "건설도면 리딩 서비스",
-      "company": "고센그룹 주식회사",
-      "description": "Preparing"
-    },{
-      "name": "LISA - Financial Specialized Chatbot",
-      "company": "고센그룹 주식회사",
-      "description": "Administrator page for building and learning chatbots",
-      "skills": ["Javascript", "react","redux","redux-thunk","material ui","html","scss"],
-      "img": [
-        {
-          "src": "./project/lisaBO1.png",
-          "desc": "LISA - Financial Specialized Chatbot back office 1"
-        },{
-          "src": "./project/lisaBO2.png",
-          "desc": "LISA - Financial Specialized Chatbot back office 2"
-        },{
-          "src": "./project/lisaBO3.png",
-          "desc": "LISA - Financial Specialized Chatbot back office 3"
-        },{
-          "src": "./project/lisaBO4.png",
-          "desc": "LISA - Financial Specialized Chatbot back office 4"
-        }
-      ]
-    },{
-      "name": "법률정보 빅데이터 구축",
-      "company": "고센그룹 주식회사",
-      "description": "Preparing"
-    },{
-      "name": "개인회생 서류작성 자동화",
-      "company": "고센그룹 주식회사",
-      "description": "Preparing"
-    },{
-      "name": "Desert Essence official Korea",
-      "company": "(주)엘에스지",
-      "description": "make website and design renewal (2016.08)",
-      "skills": ["Javascript", "JQuery","html","css"],
-      "link": "http://www.desertessence.co.kr/"
-    },{
-      "name": "LOQI official Korea",
-      "company": "(주)엘에스지",
-      "description": "make website and design renewal (2016.08)",
-      "skills": ["Javascript", "JQuery","html","css"],
-      "link":"http://loqi.kr/"
-    }
-  ],
-  "fullname": "Haemin Goo"
+	"skills": [
+		{
+			"title": "Languages",
+			"type": "percent",
+			"subskills": [
+				{
+					"name": "Javascript",
+					"percent": 89
+				},
+				{
+					"name": "HTML",
+					"percent": 94
+				},
+				{
+					"name": "CSS",
+					"percent": 85
+				}
+			]
+		},
+		{
+			"title": "Frameworks",
+			"type": "percent",
+			"subskills": [
+				{
+					"name": "React",
+					"percent": 89
+				},
+				{
+					"name": "React Native",
+					"percent": 79
+				},
+				{
+					"name": "Vue",
+					"percent": 70
+				},
+				{
+					"name": "Angular",
+					"percent": 70
+				},
+				{
+					"name": "Electron",
+					"percent": 60
+				},
+				{
+					"name": "Webpack",
+					"percent": 70
+				}
+			]
+		},
+		{
+			"title": "Software",
+			"type": "tag",
+			"subskills": [
+				{
+					"name": "Illustrator"
+				},
+				{
+					"name": "Photoshop"
+				}
+			]
+		}
+	],
+	"summary": "When I was a teenager, I worked as a freelancer in homepage making as a hobby. And became a job after graduating from university. I have more than five years of experience as a front-end developer in various industries. I value designing and building various projects, and producing satisfactory results in time.",
+	"education": [
+		{
+			"institution": "Hongik University, Seoul",
+			"degree": "Indestrial Engineering",
+			"start": "2007",
+			"end": "2014"
+		}
+	],
+	"experience": [
+		{
+			"role": "Front-end Developer",
+			"company": "주식회사 베스티지움",
+			"description": "I'm in charge of all the front-end affairs of this company. We developed ORB CITY, a blockchain project, and operated the service.",
+			"start": "10/2021",
+			"end": "07/2024"
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "주식회사 브이젠",
+			"description": "I'm in charge of all the front-end affairs of this company. I am currently working on various projects about VPP(Virtual Power Plant)",
+			"start": "03/2021",
+			"end": ""
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "(주)테라핀테크",
+			"description": "I'm in charge of all the front-end affairs of this company. I'm also in charge of front-end work in collaboration with other companies(Kakao Pay, Toss), and I am currently working on various projects related to the Online Investment Linked Finance Act",
+			"start": "08/2020",
+			"end": "02/2021"
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "(주)싸이투코드",
+			"description": "The name of the company was changed at 고센그룹 주식회사. I am in charge of the development team, and I am producing the website of Blockchain/Artificial Intelligence Service, the administrator's homepage for settlement, and Windows application.",
+			"start": "01/2019",
+			"end": "08/2020"
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "고센그룹 주식회사",
+			"description": "Worked as a front end for a company that makes AI-based services. I made a build homepage for chatbot production and a learning and preprocessing homepage for machine learning.",
+			"start": "02/2017",
+			"end": "12/2018"
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "(주)엘에스지",
+			"description": "I worked as a front-end developer for a distribution company. This is where various brands in fashion and cosmetics are launched in Korea, where I have produced introductory and sales websites for each brand.",
+			"start": "06/2016",
+			"end": "02/2017"
+		},
+		{
+			"role": "Front-end Developer",
+			"company": "(주)유에듀엠",
+			"description": "In the first years of my career, I produced the company's homepage and maintained the existing online lecture page.",
+			"start": "01/2015",
+			"end": "01/2016"
+		}
+	],
+	"social": [
+		{
+			"service": "linkedin",
+			"url": "https://www.linkedin.com/in/haemin-goo"
+		},
+		{
+			"service": "github",
+			"url": "https://github.com/haeminGoo"
+		},
+		{
+			"service": "instagram",
+			"url": "https://www.instagram.com/guhaemin00"
+		}
+	],
+	"role": "Front-end Develpoer",
+	"projects": [
+		{
+			"name": "Calzuro Korea",
+			"company": "freelancer",
+			"description": "Calzuro Korea is a company that imports and sells medical shoes. I made a website for them.",
+			"point": [
+				"Next.js was used to build the website, and the Admin page was built using React.",
+				"It has Admin page for managing products and orders.",
+				"Since the company is a distributor, the website was designed to be simple and easy to find information."
+			],
+			"skills": [
+				"node",
+				"React",
+				"Next.js",
+				"Admin Page",
+				"AWS"
+			],
+			"link": "https://calzuro.co.kr/",
+			"img": [
+				{
+					"src": "./project/calzuro1.PNG",
+					"desc": "calzuro1"
+				},
+				{
+					"src": "./project/calzuro2.PNG",
+					"desc": "calzuro2"
+				}
+			]
+		},
+		{
+			"name": "ORB CITY",
+			"company": "주식회사 베스티지움",
+			"description": "It provides P2E services as a blockchain Layer 2 project.",
+			"point": [
+				"With a Layer 2 service that works on the Polygon network, users can play games and earn NFTs.",
+				"It was a Clayton-based project, but it moved to Polygon.",
+				"It deals with goods such as NFTs and coins and provides functions such as staking and learning."
+			],
+			"skills": [
+				"node",
+				"React",
+				"Next.js",
+				"BlockChain",
+				"Metamask"
+			],
+			"link": "https://namu.wiki/w/%EC%98%A4%EB%B8%8C%EC%8B%9C%ED%8B%B0(Orbcity)",
+			"img": [
+				{
+					"src": "./project/orbcity.mp4",
+					"desc": "orbcity"
+				}
+			]
+		},
+		{
+			"name": "Gaonna Scrapper",
+			"company": "Toy project",
+			"description": "This is a data scraping program that imports data from Taobao and Naver shopping. I heard complaints from my friend who runs overseas direct purchase business and produced it.",
+			"point": [
+				"Collect data after searching Naver shopping items.",
+				"Retrieves information from the Taobao product page list and translates data through Papago.",
+				"Modify scraped data and extract it in Excel format"
+			],
+			"skills": [
+				"node",
+				"React",
+				"chromium",
+				"electron",
+				"puppeteer"
+			],
+			"link": "https://drive.google.com/file/d/1i3xlmdjM4MEKatBYctyLPoy0JW1GyujJ/view?usp=sharing",
+			"img": [
+				{
+					"src": "./project/gaonna.png",
+					"desc": "gaonna 1"
+				}
+			]
+		},
+		{
+			"name": "KOEN VPP LDS",
+			"company": "주식회사 브이젠",
+			"description": "A system that monitors information of generators belonging to a plant. The map library was not available because the system would operate in a closed network, so we implemented it directly using d3.",
+			"point": [
+				"Display measurement data and forecasts for generators.",
+				"Map representation using D3.js and topoJson",
+				"Map magnification, reduction, marker display with D3.js"
+			],
+			"skills": [
+				"Javascript",
+				"React",
+				"d3",
+				"html",
+				"css"
+			],
+			"link": "http://15.165.198.216/",
+			"img": [
+				{
+					"src": "./project/lds.png",
+					"desc": "lds 1"
+				}
+			]
+		},
+		{
+			"name": "Tera Funding collaboration with Toss",
+			"company": "(주)테라핀테크",
+			"description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
+			"skills": [
+				"Javascript",
+				"C#",
+				"JQuery",
+				"html",
+				"css"
+			],
+			"img": [
+				{
+					"src": "./project/toss1.png",
+					"desc": "Toss 1"
+				},
+				{
+					"src": "./project/toss2.png",
+					"desc": "Toss 2"
+				},
+				{
+					"src": "./project/toss3.png",
+					"desc": "Toss 3"
+				}
+			]
+		},
+		{
+			"name": "Tera Funding collaboration with Kakao Pay",
+			"company": "(주)테라핀테크",
+			"description": "By introducing the Online Investment Link Act, the service page provided by affiliated apps was modified to meet the standards of affiliates.",
+			"skills": [
+				"Javascript",
+				"React",
+				"html",
+				"css"
+			],
+			"img": [
+				{
+					"src": "./project/kakao1.png",
+					"desc": "Kakao Pay 1"
+				},
+				{
+					"src": "./project/kakao2.png",
+					"desc": "Kakao Pay 2"
+				},
+				{
+					"src": "./project/kakao3.png",
+					"desc": "Kakao Pay 3"
+				}
+			]
+		},
+		{
+			"name": "Tera Funding",
+			"company": "(주)테라핀테크",
+			"description": "Funding service maintenance and refactoring",
+			"skills": [
+				"Javascript",
+				"VueJS",
+				"NUXT",
+				"html",
+				"css"
+			],
+			"link": "https://terafunding.com",
+			"img": [
+				{
+					"src": "./project/funding1.png",
+					"desc": "Tera funding 1"
+				},
+				{
+					"src": "./project/funding2.png",
+					"desc": "Tera funding 2"
+				},
+				{
+					"src": "./project/funding3.png",
+					"desc": "Tera funding 3"
+				},
+				{
+					"src": "./project/funding4.png",
+					"desc": "Tera funding 4"
+				}
+			]
+		},
+		{
+			"name": "Tera Funding Mobile web",
+			"company": "(주)테라핀테크",
+			"description": "Mobile Funding service maintenance and refactoring",
+			"skills": [
+				"Javascript",
+				"VueJS",
+				"NUXT",
+				"html",
+				"css"
+			],
+			"link": "https://m.terafunding.com",
+			"img": [
+				{
+					"src": "./project/m-funding1.png",
+					"desc": "Mobile Tera funding 1"
+				},
+				{
+					"src": "./project/m-funding2.png",
+					"desc": "Mobile Tera funding 2"
+				},
+				{
+					"src": "./project/m-funding3.png",
+					"desc": "Mobile Tera funding 3"
+				},
+				{
+					"src": "./project/m-funding4.png",
+					"desc": "Mobile Tera funding 4"
+				}
+			]
+		},
+		{
+			"name": "Tera Loan",
+			"company": "(주)테라핀테크",
+			"description": "To change a web page that provides loan services to a reactive home page",
+			"skills": [
+				"Javascript",
+				"VueJS",
+				"html",
+				"css"
+			],
+			"link": "https://loan.terafunding.com/mortgage",
+			"img": [
+				{
+					"src": "./project/loan1.png",
+					"desc": "Tera loan 1"
+				},
+				{
+					"src": "./project/loan2.png",
+					"desc": "Tera loan 2"
+				},
+				{
+					"src": "./project/loan3.png",
+					"desc": "Tera loan 3"
+				},
+				{
+					"src": "./project/loan4.png",
+					"desc": "Tera loan 4"
+				}
+			]
+		},
+		{
+			"name": "Ainesha",
+			"company": "Cy2code",
+			"description": "FX trading system using AI. I created a web page for service application and member information management.",
+			"skills": [
+				"Javascript",
+				"JQuery",
+				"html",
+				"css"
+			],
+			"link": "https://ainesha.com",
+			"img": [
+				{
+					"src": "./project/ainesha1.png",
+					"desc": "ainesha 1"
+				},
+				{
+					"src": "./project/ainesha2.png",
+					"desc": "ainesha 2"
+				},
+				{
+					"src": "./project/ainesha3.png",
+					"desc": "ainesha 3"
+				},
+				{
+					"src": "./project/ainesha4.png",
+					"desc": "ainesha 4"
+				}
+			]
+		},
+		{
+			"name": "Ainesha Back-office",
+			"company": "Cy2code",
+			"description": "Back-office for settlement and user management. It includes basic member management, as well as functions for tax returns.",
+			"skills": [
+				"Javascript",
+				"react",
+				"mobx",
+				"antd",
+				"html",
+				"scss"
+			],
+			"link": "https://admin.ainesha.com",
+			"img": [
+				{
+					"src": "./project/aineshaBO1.png",
+					"desc": "ainesha back office 1"
+				},
+				{
+					"src": "./project/aineshaBO2.png",
+					"desc": "ainesha back office 2"
+				},
+				{
+					"src": "./project/aineshaBO3.png",
+					"desc": "ainesha back office 3"
+				}
+			]
+		},
+		{
+			"name": "Research Platform for the Gwangju Democratization Movement",
+			"company": "Cy2code",
+			"description": "Research Platform for the Gwangju Democratization Movement, requested by the Department of Defense.",
+			"skills": [
+				"Javascript",
+				"react",
+				"mobx",
+				"spring boot",
+				"antd",
+				"html",
+				"scss"
+			],
+			"img": [
+				{
+					"src": "./project/gwangjoo1.png",
+					"desc": "Research Platform for the Gwangju Democratization Movement 1"
+				},
+				{
+					"src": "./project/gwangjoo2.png",
+					"desc": "Research Platform for the Gwangju Democratization Movement 2"
+				},
+				{
+					"src": "./project/gwangjoo3.png",
+					"desc": "Research Platform for the Gwangju Democratization Movement 3"
+				},
+				{
+					"src": "./project/gwangjoo4.png",
+					"desc": "Research Platform for the Gwangju Democratization Movement 4"
+				},
+				{
+					"src": "./project/gwangjoo5.png",
+					"desc": "Research Platform for the Gwangju Democratization Movement 5"
+				}
+			]
+		},
+		{
+			"name": "Research Platform Back office for the Gwangju Democratization Movement",
+			"company": "Cy2code",
+			"description": "Back-office for data management. It has functions such as registering synonyms and synonyms necessary for artificial intelligence learning, managing learning schedules, and registering new data.",
+			"skills": [
+				"Javascript",
+				"react",
+				"mobx",
+				"antd",
+				"html",
+				"scss"
+			],
+			"img": [
+				{
+					"src": "./project/gwangjooBO1.png",
+					"desc": "Research Platform Back office for the Gwangju Democratization Movement 1"
+				},
+				{
+					"src": "./project/gwangjooBO2.png",
+					"desc": "Research Platform Back office for the Gwangju Democratization Movement 2"
+				},
+				{
+					"src": "./project/gwangjooBO3.png",
+					"desc": "Research Platform Back office for the Gwangju Democratization Movement 3"
+				}
+			]
+		},
+		{
+			"name": "Integrated Payment Platform Mobile Application",
+			"company": "Cy2code",
+			"description": "Mobile Application (blockchain wallet, purchase product using token)",
+			"skills": [
+				"Javascript",
+				"react-native",
+				"mobx",
+				"expo",
+				"html",
+				"scss"
+			],
+			"link": "https://play.google.com/store/apps/details?id=com.ecpplus.ecpplus",
+			"img": [
+				{
+					"src": "./project/ecp1.png",
+					"desc": "Integrated Payment Platform Mobile Application 1"
+				},
+				{
+					"src": "./project/ecp2.png",
+					"desc": "Integrated Payment Platform Mobile Application 2"
+				},
+				{
+					"src": "./project/ecp3.png",
+					"desc": "Integrated Payment Platform Mobile Application 3"
+				}
+			]
+		},
+		{
+			"name": "Integrated Payment Platform Back office",
+			"company": "Cy2code",
+			"description": "Back-office for settlement and user management",
+			"skills": [
+				"Javascript",
+				"react",
+				"mobx",
+				"antd",
+				"html",
+				"scss"
+			],
+			"link": "http://admin.epay-global.net/",
+			"img": [
+				{
+					"src": "./project/ecpBO1.png",
+					"desc": "Integrated Payment Platform Back office 1"
+				},
+				{
+					"src": "./project/ecpBO2.png",
+					"desc": "Integrated Payment Platform Back office 2"
+				},
+				{
+					"src": "./project/ecpBO3.png",
+					"desc": "Integrated Payment Platform Back office 3"
+				}
+			]
+		},
+		{
+			"name": "건설도면 리딩 서비스",
+			"company": "고센그룹 주식회사",
+			"description": "Preparing"
+		},
+		{
+			"name": "LISA - Financial Specialized Chatbot",
+			"company": "고센그룹 주식회사",
+			"description": "Administrator page for building and learning chatbots",
+			"skills": [
+				"Javascript",
+				"react",
+				"redux",
+				"redux-thunk",
+				"material ui",
+				"html",
+				"scss"
+			],
+			"img": [
+				{
+					"src": "./project/lisaBO1.png",
+					"desc": "LISA - Financial Specialized Chatbot back office 1"
+				},
+				{
+					"src": "./project/lisaBO2.png",
+					"desc": "LISA - Financial Specialized Chatbot back office 2"
+				},
+				{
+					"src": "./project/lisaBO3.png",
+					"desc": "LISA - Financial Specialized Chatbot back office 3"
+				},
+				{
+					"src": "./project/lisaBO4.png",
+					"desc": "LISA - Financial Specialized Chatbot back office 4"
+				}
+			]
+		},
+		{
+			"name": "법률정보 빅데이터 구축",
+			"company": "고센그룹 주식회사",
+			"description": "Preparing"
+		},
+		{
+			"name": "개인회생 서류작성 자동화",
+			"company": "고센그룹 주식회사",
+			"description": "Preparing"
+		},
+		{
+			"name": "Desert Essence official Korea",
+			"company": "(주)엘에스지",
+			"description": "make website and design renewal (2016.08)",
+			"skills": [
+				"Javascript",
+				"JQuery",
+				"html",
+				"css"
+			],
+			"link": "http://www.desertessence.co.kr/"
+		},
+		{
+			"name": "LOQI official Korea",
+			"company": "(주)엘에스지",
+			"description": "make website and design renewal (2016.08)",
+			"skills": [
+				"Javascript",
+				"JQuery",
+				"html",
+				"css"
+			],
+			"link": "http://loqi.kr/"
+		}
+	],
+	"fullname": "Haemin Goo"
 }
