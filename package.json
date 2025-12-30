@@ -15,7 +15,7 @@
 		"deploy": "gh-pages -d public"
 	},
 	"dependencies": {
-		"gatsby": "^2.18.12",
+		"gatsby": "^5.15.0",
 		"gatsby-plugin-manifest": "^2.2.34",
 		"gatsby-plugin-netlify-cms": "^4.1.33",
 		"gatsby-plugin-offline": "^3.0.30",
