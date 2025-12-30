@@ -44,7 +44,7 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-decap-cms',
+    'gatsby-plugin-netlify-cms',
     `gatsby-plugin-postcss`,
   ],
 };

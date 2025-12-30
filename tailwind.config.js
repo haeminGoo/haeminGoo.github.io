@@ -1,12 +1,12 @@
-const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './data/**/*.json'],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './data/**/*.json'],
   theme: {
     colors: {
-      primary: colors.purple,
-      secondary: colors.red,
-      neutral: colors.gray,
+      primary: defaultTheme.colors.purple,
+      secondary: defaultTheme.colors.red,
+      neutral: defaultTheme.colors.gray,
       white: '#FFF',
     },
     extend: {},
