@@ -24,10 +24,10 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#9979ff`,
         display: `standalone`,
-        icon: 'src/assets/site-icon.png'
+        icon: 'src/assets/site-icon.png',
       },
     },
-    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
@@ -44,14 +44,7 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-decap-cms',
     `gatsby-plugin-postcss`,
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        tailwind: true, // Enable tailwindcss support
-      }
-    }
   ],
 };
