@@ -15,7 +15,7 @@
 		"deploy": "rm -f public/admin/*.map && gh-pages -d public -r git@github.com:haeminGoo/haeminGoo.github.io.git"
 	},
 	"dependencies": {
-		"gatsby": "^2.32.13",
+		"gatsby": "^5.16.0",
 		"gatsby-plugin-manifest": "^2.2.34",
 		"gatsby-plugin-netlify-cms": "^4.1.33",
 		"gatsby-plugin-offline": "^3.0.30",
