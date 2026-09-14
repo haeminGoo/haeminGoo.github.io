@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Product frontend",
+    "description": "제품의 첫 구조부터 장기 운영과 종료까지 이어지는 프론트엔드 개발",
+    "tools": ["JavaScript", "React", "Next.js", "Vue", "Nuxt", "React Native"]
+  },
+  {
+    "title": "Visual experience",
+    "description": "디자인 의도를 실제 인터랙션과 데이터 기반 화면으로 구현",
+    "tools": ["Mapbox", "Three.js", "Canvas", "D3.js", "TopoJSON", "Responsive UI"]
+  },
+  {
+    "title": "Web3 products",
+    "description": "지갑과 온체인 자산을 사용자가 이해할 수 있는 제품 흐름으로 연결",
+    "tools": ["Klaytn", "Polygon", "MetaMask", "NFT", "Token bridge"]
+  },
+  {
+    "title": "Product ownership",
+    "description": "도메인 학습, 요구사항 정리, API 조율부터 원격 협업과 팀 리딩까지",
+    "tools": ["Product planning", "Figma", "API coordination", "Remote collaboration", "Team lead"]
+  }
+]

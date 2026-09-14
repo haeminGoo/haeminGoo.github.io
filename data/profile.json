@@ -127,20 +127,7 @@
       "end": "01/2016"
     }
   ],
-  "social": [
-    {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/haemin-goo"
-    },
-    {
-      "service": "github",
-      "url": "https://github.com/haeminGoo"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/guhaemin00"
-    }
-  ],
+  "social": [],
   "role": "Front-end Develpoer",
   "projects": [
     {

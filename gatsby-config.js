@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Haemin Goo | Front-end Developer`,
     author: `Haemin Goo`,
-    description: `With 5+ years of experience as front-end develper in various industries. I design and build various projects and I value making satisfactory result on time.`,
+    description: `금융, 에너지, 블록체인 도메인의 프론트엔드를 단독으로 책임져 온 개발자 구혜민의 포트폴리오`,
     siteUrl: `https://haeminGoo.github.io/`,
     social: {
       // twitter: `barancezayirli`,
@@ -21,8 +21,8 @@ module.exports = {
         name: `Haemin Goo | Front-end Developer`,
         short_name: `CV`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#9979ff`,
+        background_color: `#f3f6fb`,
+        theme_color: `#4358ed`,
         display: `standalone`,
         icon: 'src/assets/site-icon.png',
       },

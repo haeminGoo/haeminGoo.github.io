@@ -1,0 +1,21 @@
+[
+  {
+    "period": "2024.08—NOW",
+    "company": "Independent",
+    "role": "Independent Designer · Frontend Developer",
+    "description": "2024년 8월부터 독립 프로젝트 단위로 일하고 있습니다. 세 프로젝트 모두 요구사항 정리와 기획부터 디자인, 프론트엔드 구현까지 단독으로 진행했으며, 칼주로 코리아 작업의 만족도가 같은 의뢰사의 후속 두 건으로 이어졌습니다.",
+    "highlight": "첫 의뢰 → 후속 2건",
+    "projects": [
+      {"name": "Calzuro Korea", "type": "기획 · 디자인 · 브랜드 사이트 구현", "url": "https://calzuro.co.kr/"},
+      {"name": "도고메디칼 공식쇼핑몰", "type": "기획 · 디자인 · 쇼핑몰 리디자인", "url": "https://www.dogomedical.co.kr/"},
+      {"name": "도고메디칼 기업사이트", "type": "기획 · 디자인 · 기업 사이트 구현", "url": "https://company.dogomedical.co.kr/"}
+    ]
+  },
+  {"period": "2021.10—2024.07", "company": "베스티지움", "role": "Frontend Developer", "description": "ORB CITY의 팀 빌딩 단계부터 서비스 종료까지 모든 프론트엔드 개발과 운영을 담당했습니다.", "highlight": "0→1 · 운영 · 종료"},
+  {"period": "2021.03—2021.10", "company": "브이젠", "role": "Frontend Developer · Team Lead", "description": "회사 내 프론트엔드를 단독 담당하고, 백엔드 3인·기획 1인·디자인 1인으로 구성된 개발팀을 이끌었습니다.", "highlight": "Frontend solo · Team lead"},
+  {"period": "2020.08—2021.02", "company": "테라핀테크", "role": "Frontend Developer", "description": "테라펀딩과 대출 서비스, 토스·카카오페이 제휴 채널의 프론트엔드 전체를 담당했습니다.", "highlight": "5인 업무 단독 인수"},
+  {"period": "2019.01—2020.08", "company": "싸이투코드", "role": "Frontend Developer · Team Lead", "description": "블록체인 및 인공지능 HTS 프로젝트의 프론트엔드를 개발하고 개발팀을 이끌었습니다.", "highlight": "Frontend solo · Team lead"},
+  {"period": "2017.02—2018.12", "company": "고센그룹", "role": "Frontend Developer", "description": "AI 기반 금융·법률 서비스와 학습용 백오피스, 챗봇 관리 및 문서 자동화 화면을 개발했습니다.", "highlight": "AI · Finance · Legal"},
+  {"period": "2016.06—2017.02", "company": "엘에스지", "role": "Frontend Developer", "description": "유통 상품의 브랜드 페이지와 쇼핑몰 프론트엔드를 단독으로 개발했습니다.", "highlight": "Commerce"},
+  {"period": "2015.01—2016.01", "company": "유에듀엠", "role": "Markup Developer", "description": "온라인 강의 서비스의 마크업 개발을 담당하며 제품 개발 경력을 시작했습니다.", "highlight": "Career start"}
+]
