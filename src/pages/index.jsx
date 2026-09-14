@@ -1,5 +1,4 @@
 import React from 'react';
-import { SEO } from '../components';
 import featuredProjects from '../../data/featured_projects';
 import experience from '../../data/experience_timeline';
 import capabilities from '../../data/capabilities';
@@ -226,11 +225,6 @@ const About = () => (
 
 const Home = () => (
   <main>
-    <SEO
-      title="구혜민 — Frontend Developer"
-      lang="ko"
-      description="금융, 에너지, 블록체인 도메인의 프론트엔드를 단독으로 책임져 온 개발자 구혜민의 포트폴리오"
-    />
     <header className="site-header">
       <a className="wordmark" href="#top" aria-label="첫 화면으로 이동">
         Haemin <span>G</span>oo
